@@ -1,5 +1,5 @@
-terraform-awslambda-deployment
-==============================
+terraform-awslambda-archivefile
+===============================
 
 This module builds Python Lambda function deployment packages from a `requiements.txt` file, possibly including
 packages with binary dependencies using the excellent [lambci](https://hub.docker.com/r/lambci/lambda/) docker images.
