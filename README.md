@@ -8,7 +8,8 @@ Runtime dependencies: Python 3 + Docker
 
 ```
 module "example-zip" {
-  source            = "../terraform-lambda-docker"
+  source            = "app.terraform.io/glue-consulting/archivefile/awslambda"
+  version           = "1.0.0"
   name              = "example"
   runtime           = "python3.8"
   project_path      = "${path.module}/lambda/example"
